@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: teal;
+  color: #0a0408;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#appTitle {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 80px;
+}
+
+#genreForm,
+#playBtn {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+#movieInfo {
+  font-family: 'Noto Sans', sans-serif;
+  width: 65%;
+  margin: 32px auto;
+}
+
+#movieInfo:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#moviePoster,
+#movieText {
+  width: 50%;
+  float: left;
+}
+
+img#moviePoster {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#movieText {
+  font-family: 'Noto Sans', sans-serif;
+  color: #fefbea;
+  line-height: 1.25;
+}
+
+#movieTitle {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 32px;
+  font-size: 36px;
+  text-align: center;
+}
+#movieOverview {
+  text-align: center;
+  padding: 32px;
+  font-size: 28px;
+}
+.movieDate {
+  color: #fefbea;
+  font-size: 24px;
+  text-align: center;
+}
+#playBtn {
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #b97828;
+  color: #fdc238;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+select {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  width: 200px;
+  height: auto;
+}
+#likeOrDislikeBtns {
+  text-align: center;
+  margin: 0px auto;
+}
+
+#likeBtn,
+#dislikeBtn {
+  padding: 15px 25px;
+  font-size: 25px;
+  border-radius: 12px;
+  border-style: none;
+  cursor: pointer;
+}
+
+#likeBtn {
+  background-color: #249e57;
+  color: darkgreen;
+}
+
+#dislikeBtn {
+  background-color: #c74a4a;
+  color: #910000;
+}
+.footer {
+  font-family: 'Noto Sans', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 18px;
+}
